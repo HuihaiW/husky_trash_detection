@@ -1,0 +1,4 @@
+[35m[1mScanning dependencies of target get_pose[0m
+[ 33%] [32mBuilding CXX object CMakeFiles/get_pose.dir/src/get_pose.cpp.o[0m
+[ 66%] [32m[1mLinking CXX executable /home/huihai/husky_melodic_ws/devel/.private/get_pose/lib/get_pose/get_pose[0m
+[100%] Built target get_pose

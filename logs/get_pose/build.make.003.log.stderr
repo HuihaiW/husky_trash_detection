@@ -1,0 +1,111 @@
+In file included from [01m[K/home/huihai/husky_melodic_ws/src/get_pose/src/getTrigger.cpp:1:0[m[K:
+[01m[K/home/huihai/husky_melodic_ws/src/get_pose/include/get_pose/getTrigger.h:1:0:[m[K [01;31m[Kerror: [m[Kunterminated #ifndef
+ #ifndef GET_TRIGGER_H
+ 
+In file included from [01m[K/home/huihai/husky_melodic_ws/src/get_pose/src/get_pose.cpp:4:0[m[K:
+[01m[K/home/huihai/husky_melodic_ws/src/get_pose/include/get_pose/getTrigger.h:1:0:[m[K [01;31m[Kerror: [m[Kunterminated #ifndef
+ #ifndef GET_TRIGGER_H
+ 
+[01m[K/home/huihai/husky_melodic_ws/src/get_pose/include/get_pose/getTrigger.h:11:5:[m[K [01;31m[Kerror: [m[K‘[01m[Kstring[m[K’ does not name a type; did you mean ‘[01m[Kstdin[m[K’?
+     [01;31m[Kstring[m[K _trigger;
+     [01;31m[K^~~~~~[m[K
+     [32m[Kstdin[m[K
+[01m[K/home/huihai/husky_melodic_ws/src/get_pose/include/get_pose/getTrigger.h:13:47:[m[K [01;31m[Kerror: [m[Kreturn type specification for constructor invalid
+     virtual void getTrigger(ros::NodeHandle &n[01;31m[K)[m[K;
+                                               [01;31m[K^[m[K
+[01m[K/home/huihai/husky_melodic_ws/src/get_pose/include/get_pose/getTrigger.h:13:47:[m[K [01;31m[Kerror: [m[Kconstructors cannot be declared ‘[01m[Kvirtual[m[K’ [[01;31m[K-fpermissive[m[K]
+[01m[K/home/huihai/husky_melodic_ws/src/get_pose/include/get_pose/getTrigger.h:16:2:[m[K [01;31m[Kerror: [m[Kexpected ‘[01m[K;[m[K’ after class definition
+ }
+  [01;31m[K^[m[K
+  [32m[K;[m[K
+In file included from [01m[K/home/huihai/husky_melodic_ws/src/get_pose/src/getTrigger.cpp:1:0[m[K:
+[01m[K/home/huihai/husky_melodic_ws/src/get_pose/include/get_pose/getTrigger.h:11:5:[m[K [01;31m[Kerror: [m[K‘[01m[Kstring[m[K’ does not name a type; did you mean ‘[01m[Kstdin[m[K’?
+     [01;31m[Kstring[m[K _trigger;
+     [01;31m[K^~~~~~[m[K
+     [32m[Kstdin[m[K
+[01m[K/home/huihai/husky_melodic_ws/src/get_pose/include/get_pose/getTrigger.h:13:47:[m[K [01;31m[Kerror: [m[Kreturn type specification for constructor invalid
+     virtual void getTrigger(ros::NodeHandle &n[01;31m[K)[m[K;
+                                               [01;31m[K^[m[K
+[01m[K/home/huihai/husky_melodic_ws/src/get_pose/include/get_pose/getTrigger.h:13:47:[m[K [01;31m[Kerror: [m[Kconstructors cannot be declared ‘[01m[Kvirtual[m[K’ [[01;31m[K-fpermissive[m[K]
+[01m[K/home/huihai/husky_melodic_ws/src/get_pose/include/get_pose/getTrigger.h:16:2:[m[K [01;31m[Kerror: [m[Kexpected ‘[01m[K;[m[K’ after class definition
+ }
+  [01;31m[K^[m[K
+  [32m[K;[m[K
+[01m[K/home/huihai/husky_melodic_ws/src/get_pose/src/getTrigger.cpp:3:47:[m[K [01;31m[Kerror: [m[Kreturn type specification for constructor invalid
+ void getTrigger::getTrigger(ros::NodeHandle &n[01;31m[K)[m[K{
+                                               [01;31m[K^[m[K
+[01m[K/home/huihai/husky_melodic_ws/src/get_pose/src/getTrigger.cpp:[m[K In constructor ‘[01m[KgetTrigger::getTrigger(ros::NodeHandle&)[m[K’:
+[01m[K/home/huihai/husky_melodic_ws/src/get_pose/src/getTrigger.cpp:4:5:[m[K [01;31m[Kerror: [m[K‘[01m[K_trigger[m[K’ was not declared in this scope
+     [01;31m[K_trigger[m[K = "0";
+     [01;31m[K^~~~~~~~[m[K
+[01m[K/home/huihai/husky_melodic_ws/src/get_pose/src/get_pose.cpp:[m[K In function ‘[01m[Kint main(int, char**)[m[K’:
+[01m[K/home/huihai/husky_melodic_ws/src/get_pose/src/get_pose.cpp:11:5:[m[K [01;31m[Kerror: [m[K‘[01m[Kstring[m[K’ was not declared in this scope
+     [01;31m[Kstring[m[K s = receiver.get();
+     [01;31m[K^~~~~~[m[K
+[01m[K/home/huihai/husky_melodic_ws/src/get_pose/src/get_pose.cpp:11:5:[m[K [01;36m[Knote: [m[Ksuggested alternatives:
+In file included from [01m[K/usr/include/c++/7/string:39:0[m[K,
+                 from [01m[K/opt/ros/melodic/include/ros/platform.h:38[m[K,
+                 from [01m[K/opt/ros/melodic/include/ros/time.h:53[m[K,
+                 from [01m[K/opt/ros/melodic/include/ros/ros.h:38[m[K,
+                 from [01m[K/home/huihai/husky_melodic_ws/src/get_pose/src/get_pose.cpp:1[m[K:
+[01m[K/usr/include/c++/7/bits/stringfwd.h:74:33:[m[K [01;36m[Knote: [m[K  ‘[01m[Kstd::__cxx11::string[m[K’
+   typedef basic_string<char>    [01;36m[Kstring[m[K;
+                                 [01;36m[K^~~~~~[m[K
+[01m[K/usr/include/c++/7/bits/stringfwd.h:74:33:[m[K [01;36m[Knote: [m[K  ‘[01m[Kstd::__cxx11::string[m[K’
+In file included from [01m[K/usr/include/boost/lexical_cast/detail/converter_lexical.hpp:52:0[m[K,
+                 from [01m[K/usr/include/boost/lexical_cast/try_lexical_convert.hpp:42[m[K,
+                 from [01m[K/usr/include/boost/lexical_cast.hpp:32[m[K,
+                 from [01m[K/opt/ros/melodic/include/ros/transport_hints.h:34[m[K,
+                 from [01m[K/opt/ros/melodic/include/ros/subscribe_options.h:33[m[K,
+                 from [01m[K/opt/ros/melodic/include/ros/node_handle.h:42[m[K,
+                 from [01m[K/opt/ros/melodic/include/ros/ros.h:45[m[K,
+                 from [01m[K/home/huihai/husky_melodic_ws/src/get_pose/src/get_pose.cpp:1[m[K:
+[01m[K/usr/include/boost/container/container_fwd.hpp:195:1:[m[K [01;36m[Knote: [m[K  ‘[01m[Kboost::container::string[m[K’
+ [01;36m[Kstring[m[K;
+ [01;36m[K^~~~~~[m[K
+In file included from [01m[K/opt/ros/melodic/include/ros/ros.h:40:0[m[K,
+                 from [01m[K/home/huihai/husky_melodic_ws/src/get_pose/src/get_pose.cpp:1[m[K:
+[01m[K/home/huihai/husky_melodic_ws/src/get_pose/src/get_pose.cpp:12:31:[m[K [01;31m[Kerror: [m[K‘[01m[Ks[m[K’ was not declared in this scope
+     ROS_INFO("I heard: [%s]", [01;31m[Ks[m[K);
+                               [01;31m[K^[m[K
+[01m[K/opt/ros/melodic/include/ros/console.h:348:165:[m[K [01;36m[Knote: [m[Kin definition of macro ‘[01m[KROSCONSOLE_PRINT_AT_LOCATION_WITH_FILTER[m[K’
+     ::ros::console::print(filter, __rosconsole_define_location__loc.logger_, __rosconsole_define_location__loc.level_, __FILE__, __LINE__, __ROSCONSOLE_FUNCTION__, [01;36m[K__VA_ARGS__[m[K)
+                                                                                                                                                                     [01;36m[K^~~~~~~~~~~[m[K
+[01m[K/opt/ros/melodic/include/ros/console.h:387:7:[m[K [01;36m[Knote: [m[Kin expansion of macro ‘[01m[KROSCONSOLE_PRINT_AT_LOCATION[m[K’
+       [01;36m[KROSCONSOLE_PRINT_AT_LOCATION[m[K(__VA_ARGS__); \
+       [01;36m[K^~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[01m[K/opt/ros/melodic/include/ros/console.h:572:35:[m[K [01;36m[Knote: [m[Kin expansion of macro ‘[01m[KROS_LOG_COND[m[K’
+ #define ROS_LOG(level, name, ...) [01;36m[KROS_LOG_COND[m[K(true, level, name, __VA_ARGS__)
+                                   [01;36m[K^~~~~~~~~~~~[m[K
+[01m[K/opt/ros/melodic/include/rosconsole/macros_generated.h:110:23:[m[K [01;36m[Knote: [m[Kin expansion of macro ‘[01m[KROS_LOG[m[K’
+ #define ROS_INFO(...) [01;36m[KROS_LOG[m[K(::ros::console::levels::Info, ROSCONSOLE_DEFAULT_NAME, __VA_ARGS__)
+                       [01;36m[K^~~~~~~[m[K
+[01m[K/home/huihai/husky_melodic_ws/src/get_pose/src/get_pose.cpp:12:5:[m[K [01;36m[Knote: [m[Kin expansion of macro ‘[01m[KROS_INFO[m[K’
+     [01;36m[KROS_INFO[m[K("I heard: [%s]", s);
+     [01;36m[K^~~~~~~~[m[K
+[01m[K/home/huihai/husky_melodic_ws/src/get_pose/src/getTrigger.cpp:4:5:[m[K [01;36m[Knote: [m[Ksuggested alternative: ‘[01m[KgetTrigger[m[K’
+     [01;36m[K_trigger[m[K = "0";
+     [01;36m[K^~~~~~~~[m[K
+     [32m[KgetTrigger[m[K
+[01m[K/home/huihai/husky_melodic_ws/src/get_pose/src/getTrigger.cpp:[m[K In member function ‘[01m[Kvoid getTrigger::receiveTrigger(const ConstPtr&)[m[K’:
+[01m[K/home/huihai/husky_melodic_ws/src/get_pose/src/getTrigger.cpp:9:5:[m[K [01;31m[Kerror: [m[K‘[01m[K_trigger[m[K’ was not declared in this scope
+     [01;31m[K_trigger[m[K = t->data.c_str();
+     [01;31m[K^~~~~~~~[m[K
+[01m[K/home/huihai/husky_melodic_ws/src/get_pose/src/getTrigger.cpp:9:5:[m[K [01;36m[Knote: [m[Ksuggested alternative: ‘[01m[KgetTrigger[m[K’
+     [01;36m[K_trigger[m[K = t->data.c_str();
+     [01;36m[K^~~~~~~~[m[K
+     [32m[KgetTrigger[m[K
+[01m[K/home/huihai/husky_melodic_ws/src/get_pose/src/getTrigger.cpp:[m[K In member function ‘[01m[Kvoid getTrigger::get()[m[K’:
+[01m[K/home/huihai/husky_melodic_ws/src/get_pose/src/getTrigger.cpp:12:12:[m[K [01;31m[Kerror: [m[K‘[01m[K_trigger[m[K’ was not declared in this scope
+     return [01;31m[K_trigger[m[K;
+            [01;31m[K^~~~~~~~[m[K
+[01m[K/home/huihai/husky_melodic_ws/src/get_pose/src/getTrigger.cpp:12:12:[m[K [01;36m[Knote: [m[Ksuggested alternative: ‘[01m[KgetTrigger[m[K’
+     return [01;36m[K_trigger[m[K;
+            [01;36m[K^~~~~~~~[m[K
+            [32m[KgetTrigger[m[K
+[01m[K/home/huihai/husky_melodic_ws/src/get_pose/src/getTrigger.cpp:12:12:[m[K [01;31m[Kerror: [m[Kreturn-statement with a value, in function returning 'void' [[01;31m[K-fpermissive[m[K]
+make[2]: *** [CMakeFiles/get_pose.dir/src/get_pose.cpp.o] Error 1
+make[2]: *** Waiting for unfinished jobs....
+make[2]: *** [CMakeFiles/get_pose.dir/src/getTrigger.cpp.o] Error 1
+make[1]: *** [CMakeFiles/get_pose.dir/all] Error 2
+make: *** [all] Error 2

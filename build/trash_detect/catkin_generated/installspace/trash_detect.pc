@@ -1,0 +1,8 @@
+prefix=/home/huihai/husky_melodic_ws/install
+
+Name: trash_detect
+Description: Description of trash_detect
+Version: 0.0.0
+Cflags: 
+Libs: -L${prefix}/lib 
+Requires: 

@@ -1,0 +1,185 @@
+[35m[1mScanning dependencies of target get_pose[0m
+[ 33%] [32mBuilding CXX object CMakeFiles/get_pose.dir/src/get_pose.cpp.o[0m
+[01m[K/home/huihai/husky_melodic_ws/src/get_pose/src/get_pose.cpp:25:15:[m[K [01;31m[Kerror: [m[K‘[01m[Kvector[m[K’ was not declared in this scope
+ int findIndex([01;31m[Kvector[m[K<int> &arr, int item){
+               [01;31m[K^~~~~~[m[K
+[01m[K/home/huihai/husky_melodic_ws/src/get_pose/src/get_pose.cpp:25:15:[m[K [01;36m[Knote: [m[Ksuggested alternatives:
+In file included from [01m[K/usr/include/c++/7/vector:64:0[m[K,
+                 from [01m[K/usr/include/boost/math/special_functions/math_fwd.hpp:26[m[K,
+                 from [01m[K/usr/include/boost/math/special_functions/round.hpp:15[m[K,
+                 from [01m[K/opt/ros/melodic/include/ros/time.h:58[m[K,
+                 from [01m[K/opt/ros/melodic/include/ros/ros.h:38[m[K,
+                 from [01m[K/home/huihai/husky_melodic_ws/src/get_pose/src/get_pose.cpp:1[m[K:
+[01m[K/usr/include/c++/7/bits/stl_vector.h:216:11:[m[K [01;36m[Knote: [m[K  ‘[01m[Kstd::vector[m[K’
+     class [01;36m[Kvector[m[K : protected _Vector_base<_Tp, _Alloc>
+           [01;36m[K^~~~~~[m[K
+In file included from [01m[K/usr/include/boost/mpl/aux_/include_preprocessed.hpp:37:0[m[K,
+                 from [01m[K/usr/include/boost/mpl/vector.hpp:46[m[K,
+                 from [01m[K/usr/include/boost/math/policies/policy.hpp:14[m[K,
+                 from [01m[K/usr/include/boost/math/policies/error_handling.hpp:21[m[K,
+                 from [01m[K/usr/include/boost/math/special_functions/round.hpp:14[m[K,
+                 from [01m[K/opt/ros/melodic/include/ros/time.h:58[m[K,
+                 from [01m[K/opt/ros/melodic/include/ros/ros.h:38[m[K,
+                 from [01m[K/home/huihai/husky_melodic_ws/src/get_pose/src/get_pose.cpp:1[m[K:
+[01m[K/usr/include/boost/mpl/aux_/preprocessed/gcc/vector.hpp:22:8:[m[K [01;36m[Knote: [m[K  ‘[01m[Kboost::mpl::vector[m[K’
+ struct [01;36m[Kvector[m[K;
+        [01;36m[K^~~~~~[m[K
+In file included from [01m[K/usr/include/boost/lexical_cast/detail/converter_lexical.hpp:52:0[m[K,
+                 from [01m[K/usr/include/boost/lexical_cast/try_lexical_convert.hpp:42[m[K,
+                 from [01m[K/usr/include/boost/lexical_cast.hpp:32[m[K,
+                 from [01m[K/opt/ros/melodic/include/ros/transport_hints.h:34[m[K,
+                 from [01m[K/opt/ros/melodic/include/ros/subscribe_options.h:33[m[K,
+                 from [01m[K/opt/ros/melodic/include/ros/node_handle.h:42[m[K,
+                 from [01m[K/opt/ros/melodic/include/ros/ros.h:45[m[K,
+                 from [01m[K/home/huihai/husky_melodic_ws/src/get_pose/src/get_pose.cpp:1[m[K:
+[01m[K/usr/include/boost/container/container_fwd.hpp:108:7:[m[K [01;36m[Knote: [m[K  ‘[01m[Kboost::container::vector[m[K’
+ class [01;36m[Kvector[m[K;
+       [01;36m[K^~~~~~[m[K
+[01m[K/home/huihai/husky_melodic_ws/src/get_pose/src/get_pose.cpp:25:22:[m[K [01;31m[Kerror: [m[Kexpected primary-expression before ‘[01m[Kint[m[K’
+ int findIndex(vector<[01;31m[Kint[m[K> &arr, int item){
+                      [01;31m[K^~~[m[K
+[01m[K/home/huihai/husky_melodic_ws/src/get_pose/src/get_pose.cpp:25:33:[m[K [01;31m[Kerror: [m[Kexpected primary-expression before ‘[01m[Kint[m[K’
+ int findIndex(vector<int> &arr, [01;31m[Kint[m[K item){
+                                 [01;31m[K^~~[m[K
+[01m[K/home/huihai/husky_melodic_ws/src/get_pose/src/get_pose.cpp:25:41:[m[K [01;31m[Kerror: [m[Kexpression list treated as compound expression in initializer [[01;31m[K-fpermissive[m[K]
+ int findIndex(vector<int> &arr, int item[01;31m[K)[m[K{
+                                         [01;31m[K^[m[K
+[01m[K/home/huihai/husky_melodic_ws/src/get_pose/src/get_pose.cpp:[m[K In function ‘[01m[Kint main(int, char**)[m[K’:
+[01m[K/home/huihai/husky_melodic_ws/src/get_pose/src/get_pose.cpp:41:5:[m[K [01;31m[Kerror: [m[K‘[01m[Kvector[m[K’ was not declared in this scope
+     [01;31m[Kvector[m[K<int> location; // location of the detected point at resolution of 1m
+     [01;31m[K^~~~~~[m[K
+[01m[K/home/huihai/husky_melodic_ws/src/get_pose/src/get_pose.cpp:41:5:[m[K [01;36m[Knote: [m[Ksuggested alternatives:
+In file included from [01m[K/usr/include/c++/7/vector:64:0[m[K,
+                 from [01m[K/usr/include/boost/math/special_functions/math_fwd.hpp:26[m[K,
+                 from [01m[K/usr/include/boost/math/special_functions/round.hpp:15[m[K,
+                 from [01m[K/opt/ros/melodic/include/ros/time.h:58[m[K,
+                 from [01m[K/opt/ros/melodic/include/ros/ros.h:38[m[K,
+                 from [01m[K/home/huihai/husky_melodic_ws/src/get_pose/src/get_pose.cpp:1[m[K:
+[01m[K/usr/include/c++/7/bits/stl_vector.h:216:11:[m[K [01;36m[Knote: [m[K  ‘[01m[Kstd::vector[m[K’
+     class [01;36m[Kvector[m[K : protected _Vector_base<_Tp, _Alloc>
+           [01;36m[K^~~~~~[m[K
+In file included from [01m[K/usr/include/boost/mpl/aux_/include_preprocessed.hpp:37:0[m[K,
+                 from [01m[K/usr/include/boost/mpl/vector.hpp:46[m[K,
+                 from [01m[K/usr/include/boost/math/policies/policy.hpp:14[m[K,
+                 from [01m[K/usr/include/boost/math/policies/error_handling.hpp:21[m[K,
+                 from [01m[K/usr/include/boost/math/special_functions/round.hpp:14[m[K,
+                 from [01m[K/opt/ros/melodic/include/ros/time.h:58[m[K,
+                 from [01m[K/opt/ros/melodic/include/ros/ros.h:38[m[K,
+                 from [01m[K/home/huihai/husky_melodic_ws/src/get_pose/src/get_pose.cpp:1[m[K:
+[01m[K/usr/include/boost/mpl/aux_/preprocessed/gcc/vector.hpp:22:8:[m[K [01;36m[Knote: [m[K  ‘[01m[Kboost::mpl::vector[m[K’
+ struct [01;36m[Kvector[m[K;
+        [01;36m[K^~~~~~[m[K
+In file included from [01m[K/usr/include/boost/lexical_cast/detail/converter_lexical.hpp:52:0[m[K,
+                 from [01m[K/usr/include/boost/lexical_cast/try_lexical_convert.hpp:42[m[K,
+                 from [01m[K/usr/include/boost/lexical_cast.hpp:32[m[K,
+                 from [01m[K/opt/ros/melodic/include/ros/transport_hints.h:34[m[K,
+                 from [01m[K/opt/ros/melodic/include/ros/subscribe_options.h:33[m[K,
+                 from [01m[K/opt/ros/melodic/include/ros/node_handle.h:42[m[K,
+                 from [01m[K/opt/ros/melodic/include/ros/ros.h:45[m[K,
+                 from [01m[K/home/huihai/husky_melodic_ws/src/get_pose/src/get_pose.cpp:1[m[K:
+[01m[K/usr/include/boost/container/container_fwd.hpp:108:7:[m[K [01;36m[Knote: [m[K  ‘[01m[Kboost::container::vector[m[K’
+ class [01;36m[Kvector[m[K;
+       [01;36m[K^~~~~~[m[K
+[01m[K/home/huihai/husky_melodic_ws/src/get_pose/src/get_pose.cpp:41:12:[m[K [01;31m[Kerror: [m[Kexpected primary-expression before ‘[01m[Kint[m[K’
+     vector<[01;31m[Kint[m[K> location; // location of the detected point at resolution of 1m
+            [01;31m[K^~~[m[K
+[01m[K/home/huihai/husky_melodic_ws/src/get_pose/src/get_pose.cpp:42:12:[m[K [01;31m[Kerror: [m[Kexpected primary-expression before ‘[01m[Kint[m[K’
+     vector<[01;31m[Kint[m[K> count; // point count in that location with resolutioin of 1m
+            [01;31m[K^~~[m[K
+[01m[K/home/huihai/husky_melodic_ws/src/get_pose/src/get_pose.cpp:43:12:[m[K [01;31m[Kerror: [m[Kexpected primary-expression before ‘[01m[Kint[m[K’
+     vector<[01;31m[Kint[m[K> mean; // mean of trash count in that location with resolution of 1m
+            [01;31m[K^~~[m[K
+[01m[K/home/huihai/husky_melodic_ws/src/get_pose/src/get_pose.cpp:66:26:[m[K [01;31m[Kerror: [m[K‘[01m[Klocation[m[K’ was not declared in this scope
+      int yes = findIndex([01;31m[Klocation[m[K, new_location);
+                          [01;31m[K^~~~~~~~[m[K
+[01m[K/home/huihai/husky_melodic_ws/src/get_pose/src/get_pose.cpp:66:26:[m[K [01;36m[Knote: [m[Ksuggested alternative: ‘[01m[Klocaltime[m[K’
+      int yes = findIndex([01;36m[Klocation[m[K, new_location);
+                          [01;36m[K^~~~~~~~[m[K
+                          [32m[Klocaltime[m[K
+[01m[K/home/huihai/husky_melodic_ws/src/get_pose/src/get_pose.cpp:66:48:[m[K [01;31m[Kerror: [m[K‘[01m[KfindIndex[m[K’ cannot be used as a function
+      int yes = findIndex(location, new_location[01;31m[K)[m[K;
+                                                [01;31m[K^[m[K
+[01m[K/home/huihai/husky_melodic_ws/src/get_pose/src/get_pose.cpp:68:13:[m[K [01;31m[Kerror: [m[K‘[01m[Kcount[m[K’ was not declared in this scope
+   int sum = [01;31m[Kcount[m[K[yes] * mean[yes] + std::stoi(s);
+             [01;31m[K^~~~~[m[K
+[01m[K/home/huihai/husky_melodic_ws/src/get_pose/src/get_pose.cpp:68:13:[m[K [01;36m[Knote: [m[Ksuggested alternative:
+In file included from [01m[K/usr/include/c++/7/algorithm:62:0[m[K,
+                 from [01m[K/usr/include/boost/math/tools/config.hpp:18[m[K,
+                 from [01m[K/usr/include/boost/math/special_functions/round.hpp:13[m[K,
+                 from [01m[K/opt/ros/melodic/include/ros/time.h:58[m[K,
+                 from [01m[K/opt/ros/melodic/include/ros/ros.h:38[m[K,
+                 from [01m[K/home/huihai/husky_melodic_ws/src/get_pose/src/get_pose.cpp:1[m[K:
+[01m[K/usr/include/c++/7/bits/stl_algo.h:4076:5:[m[K [01;36m[Knote: [m[K  ‘[01m[Kstd::count[m[K’
+     [01;36m[Kcount[m[K(_InputIterator __first, _InputIterator __last, const _Tp& __value)
+     [01;36m[K^~~~~[m[K
+[01m[K/home/huihai/husky_melodic_ws/src/get_pose/src/get_pose.cpp:68:26:[m[K [01;31m[Kerror: [m[K‘[01m[Kmean[m[K’ was not declared in this scope
+   int sum = count[yes] * [01;31m[Kmean[m[K[yes] + std::stoi(s);
+                          [01;31m[K^~~~[m[K
+[01m[K/home/huihai/husky_melodic_ws/src/get_pose/src/get_pose.cpp:68:26:[m[K [01;36m[Knote: [m[Ksuggested alternative: ‘[01m[Kmain[m[K’
+   int sum = count[yes] * [01;36m[Kmean[m[K[yes] + std::stoi(s);
+                          [01;36m[K^~~~[m[K
+                          [32m[Kmain[m[K
+[01m[K/home/huihai/husky_melodic_ws/src/get_pose/src/get_pose.cpp:74:3:[m[K [01;31m[Kerror: [m[K‘[01m[Kcount[m[K’ was not declared in this scope
+   [01;31m[Kcount[m[K.push_back(1);
+   [01;31m[K^~~~~[m[K
+[01m[K/home/huihai/husky_melodic_ws/src/get_pose/src/get_pose.cpp:74:3:[m[K [01;36m[Knote: [m[Ksuggested alternative:
+In file included from [01m[K/usr/include/c++/7/algorithm:62:0[m[K,
+                 from [01m[K/usr/include/boost/math/tools/config.hpp:18[m[K,
+                 from [01m[K/usr/include/boost/math/special_functions/round.hpp:13[m[K,
+                 from [01m[K/opt/ros/melodic/include/ros/time.h:58[m[K,
+                 from [01m[K/opt/ros/melodic/include/ros/ros.h:38[m[K,
+                 from [01m[K/home/huihai/husky_melodic_ws/src/get_pose/src/get_pose.cpp:1[m[K:
+[01m[K/usr/include/c++/7/bits/stl_algo.h:4076:5:[m[K [01;36m[Knote: [m[K  ‘[01m[Kstd::count[m[K’
+     [01;36m[Kcount[m[K(_InputIterator __first, _InputIterator __last, const _Tp& __value)
+     [01;36m[K^~~~~[m[K
+[01m[K/home/huihai/husky_melodic_ws/src/get_pose/src/get_pose.cpp:75:3:[m[K [01;31m[Kerror: [m[K‘[01m[Kmean[m[K’ was not declared in this scope
+   [01;31m[Kmean[m[K.push_back(stoi(s));
+   [01;31m[K^~~~[m[K
+[01m[K/home/huihai/husky_melodic_ws/src/get_pose/src/get_pose.cpp:75:3:[m[K [01;36m[Knote: [m[Ksuggested alternative: ‘[01m[Kmain[m[K’
+   [01;36m[Kmean[m[K.push_back(stoi(s));
+   [01;36m[K^~~~[m[K
+   [32m[Kmain[m[K
+[01m[K/home/huihai/husky_melodic_ws/src/get_pose/src/get_pose.cpp:82:25:[m[K [01;31m[Kerror: [m[K‘[01m[Klocation[m[K’ was not declared in this scope
+     for (int i = 0; i < [01;31m[Klocation[m[K.size(); ++i){
+                         [01;31m[K^~~~~~~~[m[K
+[01m[K/home/huihai/husky_melodic_ws/src/get_pose/src/get_pose.cpp:82:25:[m[K [01;36m[Knote: [m[Ksuggested alternative: ‘[01m[Klocaltime[m[K’
+     for (int i = 0; i < [01;36m[Klocation[m[K.size(); ++i){
+                         [01;36m[K^~~~~~~~[m[K
+                         [32m[Klocaltime[m[K
+[01m[K/home/huihai/husky_melodic_ws/src/get_pose/src/get_pose.cpp:86:2:[m[K [01;31m[Kerror: [m[K‘[01m[Kstring[m[K’ was not declared in this scope
+  [01;31m[Kstring[m[K new_line_1 = std::to_string(new_x) + " , " + std::to_string(new_y) + " , "  + std::to_string(mean.at(i)) + "\n";
+  [01;31m[K^~~~~~[m[K
+[01m[K/home/huihai/husky_melodic_ws/src/get_pose/src/get_pose.cpp:86:2:[m[K [01;36m[Knote: [m[Ksuggested alternatives:
+In file included from [01m[K/usr/include/c++/7/string:39:0[m[K,
+                 from [01m[K/opt/ros/melodic/include/ros/platform.h:38[m[K,
+                 from [01m[K/opt/ros/melodic/include/ros/time.h:53[m[K,
+                 from [01m[K/opt/ros/melodic/include/ros/ros.h:38[m[K,
+                 from [01m[K/home/huihai/husky_melodic_ws/src/get_pose/src/get_pose.cpp:1[m[K:
+[01m[K/usr/include/c++/7/bits/stringfwd.h:74:33:[m[K [01;36m[Knote: [m[K  ‘[01m[Kstd::__cxx11::string[m[K’
+   typedef basic_string<char>    [01;36m[Kstring[m[K;
+                                 [01;36m[K^~~~~~[m[K
+[01m[K/usr/include/c++/7/bits/stringfwd.h:74:33:[m[K [01;36m[Knote: [m[K  ‘[01m[Kstd::__cxx11::string[m[K’
+In file included from [01m[K/usr/include/boost/lexical_cast/detail/converter_lexical.hpp:52:0[m[K,
+                 from [01m[K/usr/include/boost/lexical_cast/try_lexical_convert.hpp:42[m[K,
+                 from [01m[K/usr/include/boost/lexical_cast.hpp:32[m[K,
+                 from [01m[K/opt/ros/melodic/include/ros/transport_hints.h:34[m[K,
+                 from [01m[K/opt/ros/melodic/include/ros/subscribe_options.h:33[m[K,
+                 from [01m[K/opt/ros/melodic/include/ros/node_handle.h:42[m[K,
+                 from [01m[K/opt/ros/melodic/include/ros/ros.h:45[m[K,
+                 from [01m[K/home/huihai/husky_melodic_ws/src/get_pose/src/get_pose.cpp:1[m[K:
+[01m[K/usr/include/boost/container/container_fwd.hpp:195:1:[m[K [01;36m[Knote: [m[K  ‘[01m[Kboost::container::string[m[K’
+ [01;36m[Kstring[m[K;
+ [01;36m[K^~~~~~[m[K
+[01m[K/home/huihai/husky_melodic_ws/src/get_pose/src/get_pose.cpp:87:17:[m[K [01;31m[Kerror: [m[K‘[01m[Knew_line_1[m[K’ was not declared in this scope
+  my_new_File << [01;31m[Knew_line_1[m[K;
+                 [01;31m[K^~~~~~~~~~[m[K
+[01m[K/home/huihai/husky_melodic_ws/src/get_pose/src/get_pose.cpp:87:17:[m[K [01;36m[Knote: [m[Ksuggested alternative: ‘[01m[Kgetline[m[K’
+  my_new_File << [01;36m[Knew_line_1[m[K;
+                 [01;36m[K^~~~~~~~~~[m[K
+                 [32m[Kgetline[m[K
+CMakeFiles/get_pose.dir/build.make:62: recipe for target 'CMakeFiles/get_pose.dir/src/get_pose.cpp.o' failed
+make[2]: *** [CMakeFiles/get_pose.dir/src/get_pose.cpp.o] Error 1
+CMakeFiles/Makefile2:611: recipe for target 'CMakeFiles/get_pose.dir/all' failed
+make[1]: *** [CMakeFiles/get_pose.dir/all] Error 2
+Makefile:140: recipe for target 'all' failed
+make: *** [all] Error 2

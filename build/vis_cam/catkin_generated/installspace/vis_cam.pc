@@ -1,0 +1,8 @@
+prefix=/home/huihai/husky_melodic_ws/install
+
+Name: vis_cam
+Description: Description of vis_cam
+Version: 0.0.0
+Cflags: 
+Libs: -L${prefix}/lib 
+Requires: 

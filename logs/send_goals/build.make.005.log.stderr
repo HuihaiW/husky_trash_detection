@@ -1,0 +1,21 @@
+[01m[K/home/huihai/husky_melodic_ws/src/send_goals/src/read_goals.cpp:[m[K In function ‘[01m[Kint main()[m[K’:
+[01m[K/home/huihai/husky_melodic_ws/src/send_goals/src/read_goals.cpp:56:15:[m[K [01;31m[Kerror: [m[K‘[01m[Kargc[m[K’ was not declared in this scope
+     ros::init([01;31m[Kargc[m[K, argv, "simple_navigation_goals");
+               [01;31m[K^~~~[m[K
+[01m[K/home/huihai/husky_melodic_ws/src/send_goals/src/read_goals.cpp:56:15:[m[K [01;36m[Knote: [m[Ksuggested alternative: ‘[01m[Kcargq[m[K’
+     ros::init([01;36m[Kargc[m[K, argv, "simple_navigation_goals");
+               [01;36m[K^~~~[m[K
+               [32m[Kcargq[m[K
+[01m[K/home/huihai/husky_melodic_ws/src/send_goals/src/read_goals.cpp:56:21:[m[K [01;31m[Kerror: [m[K‘[01m[Kargv[m[K’ was not declared in this scope
+     ros::init(argc, [01;31m[Kargv[m[K, "simple_navigation_goals");
+                     [01;31m[K^~~~[m[K
+[01m[K/home/huihai/husky_melodic_ws/src/send_goals/src/read_goals.cpp:56:21:[m[K [01;36m[Knote: [m[Ksuggested alternative: ‘[01m[Kcargq[m[K’
+     ros::init(argc, [01;36m[Kargv[m[K, "simple_navigation_goals");
+                     [01;36m[K^~~~[m[K
+                     [32m[Kcargq[m[K
+[01m[K/home/huihai/husky_melodic_ws/src/send_goals/src/read_goals.cpp:87:5:[m[K [01;31m[Kerror: [m[Kexpected ‘[01m[K;[m[K’ before ‘[01m[K}[m[K’ token
+     [01;31m[K}[m[K
+     [01;31m[K^[m[K
+make[2]: *** [CMakeFiles/send_goals.dir/src/read_goals.cpp.o] Error 1
+make[1]: *** [CMakeFiles/send_goals.dir/all] Error 2
+make: *** [all] Error 2

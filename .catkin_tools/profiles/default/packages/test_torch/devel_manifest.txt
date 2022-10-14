@@ -1,0 +1,6 @@
+test_torch
+/home/huihai/husky_melodic_ws/devel/.private/test_torch/cmake.lock /home/huihai/husky_melodic_ws/devel/./cmake.lock
+/home/huihai/husky_melodic_ws/devel/.private/test_torch/share/test_torch/cmake/test_torchConfig-version.cmake /home/huihai/husky_melodic_ws/devel/share/test_torch/cmake/test_torchConfig-version.cmake
+/home/huihai/husky_melodic_ws/devel/.private/test_torch/share/test_torch/cmake/test_torchConfig.cmake /home/huihai/husky_melodic_ws/devel/share/test_torch/cmake/test_torchConfig.cmake
+/home/huihai/husky_melodic_ws/devel/.private/test_torch/lib/test_torch/vision_test /home/huihai/husky_melodic_ws/devel/lib/test_torch/vision_test
+/home/huihai/husky_melodic_ws/devel/.private/test_torch/lib/pkgconfig/test_torch.pc /home/huihai/husky_melodic_ws/devel/lib/pkgconfig/test_torch.pc

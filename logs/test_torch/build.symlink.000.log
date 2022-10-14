@@ -1,0 +1,4 @@
+Symlinking /home/huihai/husky_melodic_ws/devel/share/test_torch/cmake/test_torchConfig-version.cmake
+Symlinking /home/huihai/husky_melodic_ws/devel/share/test_torch/cmake/test_torchConfig.cmake
+Symlinking /home/huihai/husky_melodic_ws/devel/lib/test_torch/vision_test
+Symlinking /home/huihai/husky_melodic_ws/devel/lib/pkgconfig/test_torch.pc

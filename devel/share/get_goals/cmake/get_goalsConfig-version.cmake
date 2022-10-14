@@ -1,0 +1,1 @@
+/home/huihai/husky_melodic_ws/devel/.private/get_goals/share/get_goals/cmake/get_goalsConfig-version.cmake

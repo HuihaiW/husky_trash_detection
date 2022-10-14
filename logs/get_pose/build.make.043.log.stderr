@@ -1,0 +1,7 @@
+[01m[K/home/huihai/husky_melodic_ws/src/get_pose/src/get_pose.cpp:[m[K In function ‘[01m[Kint main(int, char**)[m[K’:
+[01m[K/home/huihai/husky_melodic_ws/src/get_pose/src/get_pose.cpp:25:5:[m[K [01;31m[Kerror: [m[Kexpected ‘[01m[K,[m[K’ or ‘[01m[K;[m[K’ before ‘[01m[Kros[m[K’
+     [01;31m[Kros[m[K::init(argc, argv, "recorder");
+     [01;31m[K^~~[m[K
+make[2]: *** [CMakeFiles/get_pose.dir/src/get_pose.cpp.o] Error 1
+make[1]: *** [CMakeFiles/get_pose.dir/all] Error 2
+make: *** [all] Error 2

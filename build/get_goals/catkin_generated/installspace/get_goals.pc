@@ -1,0 +1,8 @@
+prefix=/home/huihai/husky_melodic_ws/install
+
+Name: get_goals
+Description: Description of get_goals
+Version: 0.0.0
+Cflags: 
+Libs: -L${prefix}/lib 
+Requires: 

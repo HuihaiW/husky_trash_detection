@@ -1,0 +1,16 @@
+[01m[K/home/huihai/husky_melodic_ws/src/vis_cam/src/vis_cam.cpp:[m[K In function ‘[01m[Kint main(int, char**)[m[K’:
+[01m[K/home/huihai/husky_melodic_ws/src/vis_cam/src/vis_cam.cpp:45:52:[m[K [01;31m[Kerror: [m[Krequest for member ‘[01m[KtoString[m[K’ in ‘[01m[Kimg_index[m[K’, which is of non-class type ‘[01m[Kint[m[K’
+      string img_path = save_path + '/' + img_index.[01;31m[KtoString[m[K() + ".jpg";
+                                                    [01;31m[K^~~~~~~~[m[K
+[01m[K/home/huihai/husky_melodic_ws/src/vis_cam/src/vis_cam.cpp:46:22:[m[K [01;31m[Kerror: [m[Ktoo few arguments to function ‘[01m[Kbool cv::imwrite(const String&, cv::InputArray, const std::vector<int>&)[m[K’
+      imwrite(img_path[01;31m[K)[m[K;
+                      [01;31m[K^[m[K
+In file included from [01m[K/usr/local/include/opencv4/opencv2/highgui.hpp:48:0[m[K,
+                 from [01m[K/usr/local/include/opencv4/opencv2/opencv.hpp:68[m[K,
+                 from [01m[K/home/huihai/husky_melodic_ws/src/vis_cam/src/vis_cam.cpp:1[m[K:
+[01m[K/usr/local/include/opencv4/opencv2/imgcodecs.hpp:222:19:[m[K [01;36m[Knote: [m[Kdeclared here
+ CV_EXPORTS_W bool [01;36m[Kimwrite[m[K( const String& filename, InputArray img,
+                   [01;36m[K^~~~~~~[m[K
+make[2]: *** [CMakeFiles/vis_cam.dir/src/vis_cam.cpp.o] Error 1
+make[1]: *** [CMakeFiles/vis_cam.dir/all] Error 2
+make: *** [all] Error 2

@@ -1,0 +1,3 @@
+[35m[1mScanning dependencies of target send_goals[0m
+[ 50%] Built target get_info
+[ 75%] [32mBuilding CXX object CMakeFiles/send_goals.dir/src/read_goals.cpp.o[0m

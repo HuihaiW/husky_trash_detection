@@ -1,0 +1,11 @@
+[01m[K/home/huihai/husky_melodic_ws/src/get_pose/src/getTrigger.cpp:[m[K In constructor ‘[01m[KgetTrigger::getTrigger(ros::NodeHandle&)[m[K’:
+[01m[K/home/huihai/husky_melodic_ws/src/get_pose/src/getTrigger.cpp:3:1:[m[K [01;31m[Kerror: [m[Kuninitialized reference member in ‘[01m[Kstd::__cxx11::string& {aka class std::__cxx11::basic_string<char>&}[m[K’ [[01;31m[K-fpermissive[m[K]
+ [01;31m[KgetTrigger[m[K::getTrigger(ros::NodeHandle &n){
+ [01;31m[K^~~~~~~~~~[m[K
+In file included from [01m[K/home/huihai/husky_melodic_ws/src/get_pose/src/getTrigger.cpp:1:0[m[K:
+[01m[K/home/huihai/husky_melodic_ws/src/get_pose/include/get_pose/getTrigger.h:11:18:[m[K [01;36m[Knote: [m[K‘[01m[Kstd::__cxx11::string& getTrigger::_trigger[m[K’ should be initialized
+     std::string &[01;36m[K_trigger[m[K;
+                  [01;36m[K^~~~~~~~[m[K
+make[2]: *** [CMakeFiles/get_pose.dir/src/getTrigger.cpp.o] Error 1
+make[1]: *** [CMakeFiles/get_pose.dir/all] Error 2
+make: *** [all] Error 2

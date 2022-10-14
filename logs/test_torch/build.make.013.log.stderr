@@ -1,0 +1,14 @@
+CMakeFiles/vision_test.dir/src/torch_test.cpp.o: In function `main':
+torch_test.cpp:(.text+0x27e): undefined reference to `ros::init(int&, char**, std::string const&, unsigned int)'
+torch_test.cpp:(.text+0x310): undefined reference to `ros::NodeHandle::NodeHandle(std::string const&, std::map<std::string, std::string, std::less<std::string>, std::allocator<std::pair<std::string const, std::string> > > const&)'
+CMakeFiles/vision_test.dir/src/torch_test.cpp.o: In function `c10::Device::validate()':
+torch_test.cpp:(.text._ZN3c106Device8validateEv[_ZN3c106Device8validateEv]+0x8b): undefined reference to `c10::detail::torchInternalAssertFail(char const*, char const*, unsigned int, char const*, std::string const&)'
+torch_test.cpp:(.text._ZN3c106Device8validateEv[_ZN3c106Device8validateEv]+0x10f): undefined reference to `c10::detail::torchInternalAssertFail(char const*, char const*, unsigned int, char const*, std::string const&)'
+CMakeFiles/vision_test.dir/src/torch_test.cpp.o: In function `c10::intrusive_ptr_target::~intrusive_ptr_target()':
+torch_test.cpp:(.text._ZN3c1020intrusive_ptr_targetD2Ev[_ZN3c1020intrusive_ptr_targetD5Ev]+0x134): undefined reference to `c10::detail::torchInternalAssertFail(char const*, char const*, unsigned int, char const*, std::string const&)'
+CMakeFiles/vision_test.dir/src/torch_test.cpp.o: In function `c10::IValue::toComplexDouble() const':
+torch_test.cpp:(.text._ZNK3c106IValue15toComplexDoubleEv[_ZNK3c106IValue15toComplexDoubleEv]+0x88): undefined reference to `c10::detail::torchInternalAssertFail(char const*, char const*, unsigned int, char const*, std::string const&)'
+collect2: error: ld returned 1 exit status
+make[2]: *** [/home/huihai/husky_melodic_ws/devel/.private/test_torch/lib/test_torch/vision_test] Error 1
+make[1]: *** [CMakeFiles/vision_test.dir/all] Error 2
+make: *** [all] Error 2

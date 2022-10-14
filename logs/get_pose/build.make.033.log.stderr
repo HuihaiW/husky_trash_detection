@@ -1,0 +1,7 @@
+[01m[K/home/huihai/husky_melodic_ws/src/get_pose/src/get_pose.cpp:3:10:[m[K [01;31m[Kfatal error: [m[Kgeometry_msgs/PoseWithCovarianceStamped: No such file or directory
+ #include [01;31m[K"geometry_msgs/PoseWithCovarianceStamped"[m[K
+          [01;31m[K^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+compilation terminated.
+make[2]: *** [CMakeFiles/get_pose.dir/src/get_pose.cpp.o] Error 1
+make[1]: *** [CMakeFiles/get_pose.dir/all] Error 2
+make: *** [all] Error 2

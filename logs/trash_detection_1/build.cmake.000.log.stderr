@@ -1,0 +1,15 @@
+[31m[1mCMake Error[0m at /opt/ros/melodic/share/catkin/cmake/catkinConfig.cmake:83 (find_package):
+  Could not find a package configuration file provided by
+  "simple_navigation_goals" with any of the following names:
+
+    simple_navigation_goalsConfig.cmake
+    simple_navigation_goals-config.cmake
+
+  Add the installation prefix of "simple_navigation_goals" to
+  CMAKE_PREFIX_PATH or set "simple_navigation_goals_DIR" to a directory
+  containing one of the above files.  If "simple_navigation_goals" provides a
+  separate development package or SDK, be sure it has been installed.
+[36mCall Stack (most recent call first):[0m
+  CMakeLists.txt:10 (find_package)
+
+

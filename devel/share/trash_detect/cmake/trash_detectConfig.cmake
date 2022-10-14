@@ -1,0 +1,1 @@
+/home/huihai/husky_melodic_ws/devel/.private/trash_detect/share/trash_detect/cmake/trash_detectConfig.cmake

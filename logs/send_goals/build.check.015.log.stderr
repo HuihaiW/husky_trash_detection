@@ -1,0 +1,12 @@
+[31m[1mCMake Error[0m at /home/huihai/husky_melodic_ws/src/send_goals/CMakeLists.txt:210 (add_executable):
+  Cannot find source file:
+
+    src/receiver.cpp
+
+  Tried extensions .c .C .c++ .cc .cpp .cxx .m .M .mm .h .hh .h++ .hm .hpp
+  .hxx .in .txx
+
+
+CMake Error: CMake can not determine linker language for target: get_info
+CMake Error: Cannot determine link language for target "get_info".
+make: *** [cmake_check_build_system] Error 1

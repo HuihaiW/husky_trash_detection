@@ -1,0 +1,5 @@
+trash_detect
+/home/huihai/husky_melodic_ws/devel/.private/trash_detect/cmake.lock /home/huihai/husky_melodic_ws/devel/./cmake.lock
+/home/huihai/husky_melodic_ws/devel/.private/trash_detect/share/trash_detect/cmake/trash_detectConfig.cmake /home/huihai/husky_melodic_ws/devel/share/trash_detect/cmake/trash_detectConfig.cmake
+/home/huihai/husky_melodic_ws/devel/.private/trash_detect/share/trash_detect/cmake/trash_detectConfig-version.cmake /home/huihai/husky_melodic_ws/devel/share/trash_detect/cmake/trash_detectConfig-version.cmake
+/home/huihai/husky_melodic_ws/devel/.private/trash_detect/lib/pkgconfig/trash_detect.pc /home/huihai/husky_melodic_ws/devel/lib/pkgconfig/trash_detect.pc

@@ -1,0 +1,8 @@
+[35m[1mScanning dependencies of target vision_test[0m
+make[2]: *** No rule to make target '/usr/local/cuda-11.6/lib64/stubs/libcuda.so', needed by '/home/huihai/husky_melodic_ws/devel/.private/test_torch/lib/test_torch/vision_test'.  Stop.
+make[2]: *** Waiting for unfinished jobs....
+[ 50%] [32mBuilding CXX object CMakeFiles/vision_test.dir/src/torch_test.cpp.o[0m
+CMakeFiles/Makefile2:67: recipe for target 'CMakeFiles/vision_test.dir/all' failed
+make[1]: *** [CMakeFiles/vision_test.dir/all] Error 2
+Makefile:140: recipe for target 'all' failed
+make: *** [all] Error 2

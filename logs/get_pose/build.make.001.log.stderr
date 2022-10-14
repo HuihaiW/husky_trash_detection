@@ -1,0 +1,54 @@
+In file included from [01m[K/home/huihai/husky_melodic_ws/src/get_pose/src/getTrigger.cpp:1:0[m[K:
+[01m[K/home/huihai/husky_melodic_ws/src/get_pose/include/get_pose/getTrigger.h:1:0:[m[K [01;31m[Kerror: [m[Kunterminated #ifndef
+ #ifndef GET_TRIGGER_H
+ 
+[01m[K/home/huihai/husky_melodic_ws/src/get_pose/src/get_pose.cpp:3:10:[m[K [01;31m[Kfatal error: [m[Kgeometry_msgs/PoseWithCovarianceStamped: No such file or directory
+ #include [01;31m[K"geometry_msgs/PoseWithCovarianceStamped"[m[K
+          [01;31m[K^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+compilation terminated.
+make[2]: *** [CMakeFiles/get_pose.dir/src/get_pose.cpp.o] Error 1
+make[2]: *** Waiting for unfinished jobs....
+In file included from [01m[K/home/huihai/husky_melodic_ws/src/get_pose/src/getTrigger.cpp:1:0[m[K:
+[01m[K/home/huihai/husky_melodic_ws/src/get_pose/include/get_pose/getTrigger.h:11:5:[m[K [01;31m[Kerror: [m[K‘[01m[Kstring[m[K’ does not name a type; did you mean ‘[01m[Kstdin[m[K’?
+     [01;31m[Kstring[m[K _trigger;
+     [01;31m[K^~~~~~[m[K
+     [32m[Kstdin[m[K
+[01m[K/home/huihai/husky_melodic_ws/src/get_pose/include/get_pose/getTrigger.h:13:47:[m[K [01;31m[Kerror: [m[Kreturn type specification for constructor invalid
+     virtual void getTrigger(ros::NodeHandle &n[01;31m[K)[m[K;
+                                               [01;31m[K^[m[K
+[01m[K/home/huihai/husky_melodic_ws/src/get_pose/include/get_pose/getTrigger.h:13:47:[m[K [01;31m[Kerror: [m[Kconstructors cannot be declared ‘[01m[Kvirtual[m[K’ [[01;31m[K-fpermissive[m[K]
+[01m[K/home/huihai/husky_melodic_ws/src/get_pose/include/get_pose/getTrigger.h:8:1:[m[K [01;31m[Kerror: [m[Knew types may not be defined in a return type
+ [01;31m[Kclass[m[K getTrigger {
+ [01;31m[K^~~~~[m[K
+[01m[K/home/huihai/husky_melodic_ws/src/get_pose/include/get_pose/getTrigger.h:8:1:[m[K [01;36m[Knote: [m[K(perhaps a semicolon is missing after the definition of ‘[01m[KgetTrigger[m[K’)
+[01m[K/home/huihai/husky_melodic_ws/src/get_pose/src/getTrigger.cpp:3:42:[m[K [01;31m[Kerror: [m[Kreturn type specification for constructor invalid
+ getTrigger::getTrigger(ros::NodeHandle &n[01;31m[K)[m[K{
+                                          [01;31m[K^[m[K
+[01m[K/home/huihai/husky_melodic_ws/src/get_pose/src/getTrigger.cpp:[m[K In constructor ‘[01m[KgetTrigger::getTrigger(ros::NodeHandle&)[m[K’:
+[01m[K/home/huihai/husky_melodic_ws/src/get_pose/src/getTrigger.cpp:4:5:[m[K [01;31m[Kerror: [m[K‘[01m[K_trigger[m[K’ was not declared in this scope
+     [01;31m[K_trigger[m[K = "0";
+     [01;31m[K^~~~~~~~[m[K
+[01m[K/home/huihai/husky_melodic_ws/src/get_pose/src/getTrigger.cpp:4:5:[m[K [01;36m[Knote: [m[Ksuggested alternative: ‘[01m[KgetTrigger[m[K’
+     [01;36m[K_trigger[m[K = "0";
+     [01;36m[K^~~~~~~~[m[K
+     [32m[KgetTrigger[m[K
+[01m[K/home/huihai/husky_melodic_ws/src/get_pose/src/getTrigger.cpp:[m[K In member function ‘[01m[Kvoid getTrigger::receiveTrigger(const ConstPtr&)[m[K’:
+[01m[K/home/huihai/husky_melodic_ws/src/get_pose/src/getTrigger.cpp:9:5:[m[K [01;31m[Kerror: [m[K‘[01m[K_trigger[m[K’ was not declared in this scope
+     [01;31m[K_trigger[m[K = t->data.c_str();
+     [01;31m[K^~~~~~~~[m[K
+[01m[K/home/huihai/husky_melodic_ws/src/get_pose/src/getTrigger.cpp:9:5:[m[K [01;36m[Knote: [m[Ksuggested alternative: ‘[01m[KgetTrigger[m[K’
+     [01;36m[K_trigger[m[K = t->data.c_str();
+     [01;36m[K^~~~~~~~[m[K
+     [32m[KgetTrigger[m[K
+[01m[K/home/huihai/husky_melodic_ws/src/get_pose/src/getTrigger.cpp:[m[K In member function ‘[01m[Kvoid getTrigger::get()[m[K’:
+[01m[K/home/huihai/husky_melodic_ws/src/get_pose/src/getTrigger.cpp:12:12:[m[K [01;31m[Kerror: [m[K‘[01m[K_trigger[m[K’ was not declared in this scope
+     return [01;31m[K_trigger[m[K;
+            [01;31m[K^~~~~~~~[m[K
+[01m[K/home/huihai/husky_melodic_ws/src/get_pose/src/getTrigger.cpp:12:12:[m[K [01;36m[Knote: [m[Ksuggested alternative: ‘[01m[KgetTrigger[m[K’
+     return [01;36m[K_trigger[m[K;
+            [01;36m[K^~~~~~~~[m[K
+            [32m[KgetTrigger[m[K
+[01m[K/home/huihai/husky_melodic_ws/src/get_pose/src/getTrigger.cpp:12:12:[m[K [01;31m[Kerror: [m[Kreturn-statement with a value, in function returning 'void' [[01;31m[K-fpermissive[m[K]
+make[2]: *** [CMakeFiles/get_pose.dir/src/getTrigger.cpp.o] Error 1
+make[1]: *** [CMakeFiles/get_pose.dir/all] Error 2
+make: *** [all] Error 2

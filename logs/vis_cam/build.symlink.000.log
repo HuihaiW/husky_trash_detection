@@ -1,0 +1,4 @@
+Symlinking /home/huihai/husky_melodic_ws/devel/share/vis_cam/cmake/vis_camConfig.cmake
+Symlinking /home/huihai/husky_melodic_ws/devel/share/vis_cam/cmake/vis_camConfig-version.cmake
+Symlinking /home/huihai/husky_melodic_ws/devel/lib/vis_cam/vis_cam
+Symlinking /home/huihai/husky_melodic_ws/devel/lib/pkgconfig/vis_cam.pc

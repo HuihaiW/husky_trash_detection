@@ -1,0 +1,24 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/home/huihai/husky_melodic_ws/src/send_goals/src/server.cpp
+netinet/in.h
+-
+stdio.h
+-
+stdlib.h
+-
+string.h
+-
+sys/socket.h
+-
+unistd.h
+-
+iostream
+-
+

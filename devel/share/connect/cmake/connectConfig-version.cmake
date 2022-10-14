@@ -1,0 +1,1 @@
+/home/huihai/husky_melodic_ws/devel/.private/connect/share/connect/cmake/connectConfig-version.cmake

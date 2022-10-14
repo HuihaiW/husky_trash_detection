@@ -1,0 +1,8 @@
+prefix=/home/huihai/husky_melodic_ws/install
+
+Name: connect
+Description: Description of connect
+Version: 0.0.0
+Cflags: 
+Libs: -L${prefix}/lib 
+Requires: 

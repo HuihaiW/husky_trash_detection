@@ -1,0 +1,11 @@
+[01m[K/home/huihai/husky_melodic_ws/src/send_goals/src/read_goals.cpp:[m[K In function ‘[01m[Kint main()[m[K’:
+[01m[K/home/huihai/husky_melodic_ws/src/send_goals/src/read_goals.cpp:50:25:[m[K [01;31m[Kerror: [m[K‘[01m[KpathW[m[K’ was not declared in this scope
+     w_vector = get_data([01;31m[KpathW[m[K);
+                         [01;31m[K^~~~~[m[K
+[01m[K/home/huihai/husky_melodic_ws/src/send_goals/src/read_goals.cpp:50:25:[m[K [01;36m[Knote: [m[Ksuggested alternative: ‘[01m[Kpathw[m[K’
+     w_vector = get_data([01;36m[KpathW[m[K);
+                         [01;36m[K^~~~~[m[K
+                         [32m[Kpathw[m[K
+make[2]: *** [CMakeFiles/send_goals.dir/src/read_goals.cpp.o] Error 1
+make[1]: *** [CMakeFiles/send_goals.dir/all] Error 2
+make: *** [all] Error 2

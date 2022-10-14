@@ -1,0 +1,19 @@
+[35m[1mScanning dependencies of target get_goals[0m
+[ 50%] [32mBuilding CXX object CMakeFiles/get_goals.dir/src/get_goals.cpp.o[0m
+[01m[K/home/huihai/husky_melodic_ws/src/get_goals/src/get_goals.cpp:[m[K In function ‘[01m[Kvoid get_pose(const ConstPtr&)[m[K’:
+[01m[K/home/huihai/husky_melodic_ws/src/get_goals/src/get_goals.cpp:8:13:[m[K [01;31m[Kerror: [m[Kno match for ‘[01m[Koperator=[m[K’ (operand types are ‘[01m[Kgeometry_msgs::PoseWithCovarianceStamped {aka geometry_msgs::PoseWithCovarianceStamped_<std::allocator<void> >}[m[K’ and ‘[01m[Kconst ConstPtr* {aka const boost::shared_ptr<const geometry_msgs::PoseWithCovarianceStamped_<std::allocator<void> > >*}[m[K’)
+     goal = &[01;31m[Kmsg[m[K;
+             [01;31m[K^~~[m[K
+In file included from [01m[K/home/huihai/husky_melodic_ws/src/get_goals/src/get_goals.cpp:2:0[m[K:
+[01m[K/opt/ros/melodic/include/geometry_msgs/PoseWithCovarianceStamped.h:24:8:[m[K [01;36m[Knote: [m[Kcandidate: geometry_msgs::PoseWithCovarianceStamped_<std::allocator<void> >& geometry_msgs::PoseWithCovarianceStamped_<std::allocator<void> >::operator=(const geometry_msgs::PoseWithCovarianceStamped_<std::allocator<void> >&)
+ struct [01;36m[KPoseWithCovarianceStamped_[m[K
+        [01;36m[K^~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[01m[K/opt/ros/melodic/include/geometry_msgs/PoseWithCovarianceStamped.h:24:8:[m[K [01;36m[Knote: [m[K  no known conversion for argument 1 from ‘[01m[Kconst ConstPtr* {aka const boost::shared_ptr<const geometry_msgs::PoseWithCovarianceStamped_<std::allocator<void> > >*}[m[K’ to ‘[01m[Kconst geometry_msgs::PoseWithCovarianceStamped_<std::allocator<void> >&[m[K’
+[01m[K/opt/ros/melodic/include/geometry_msgs/PoseWithCovarianceStamped.h:24:8:[m[K [01;36m[Knote: [m[Kcandidate: geometry_msgs::PoseWithCovarianceStamped_<std::allocator<void> >& geometry_msgs::PoseWithCovarianceStamped_<std::allocator<void> >::operator=(geometry_msgs::PoseWithCovarianceStamped_<std::allocator<void> >&&)
+[01m[K/opt/ros/melodic/include/geometry_msgs/PoseWithCovarianceStamped.h:24:8:[m[K [01;36m[Knote: [m[K  no known conversion for argument 1 from ‘[01m[Kconst ConstPtr* {aka const boost::shared_ptr<const geometry_msgs::PoseWithCovarianceStamped_<std::allocator<void> > >*}[m[K’ to ‘[01m[Kgeometry_msgs::PoseWithCovarianceStamped_<std::allocator<void> >&&[m[K’
+CMakeFiles/get_goals.dir/build.make:62: recipe for target 'CMakeFiles/get_goals.dir/src/get_goals.cpp.o' failed
+make[2]: *** [CMakeFiles/get_goals.dir/src/get_goals.cpp.o] Error 1
+CMakeFiles/Makefile2:227: recipe for target 'CMakeFiles/get_goals.dir/all' failed
+make[1]: *** [CMakeFiles/get_goals.dir/all] Error 2
+Makefile:140: recipe for target 'all' failed
+make: *** [all] Error 2

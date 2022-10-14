@@ -1,0 +1,4 @@
+[35m[1mScanning dependencies of target vis_cam[0m
+[ 50%] [32mBuilding CXX object CMakeFiles/vis_cam.dir/src/vis_cam.cpp.o[0m
+[100%] [32m[1mLinking CXX executable /home/huihai/husky_melodic_ws/devel/.private/vis_cam/lib/vis_cam/vis_cam[0m
+[100%] Built target vis_cam

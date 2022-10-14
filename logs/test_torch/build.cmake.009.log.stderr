@@ -1,0 +1,11 @@
+[31m[1mCMake Error[0m at /home/huihai/husky_melodic_ws/src/test_torch/CMakeLists.txt:208 (add_executable):
+  Cannot find source file:
+
+    torch_test.cpp
+
+  Tried extensions .c .C .c++ .cc .cpp .cxx .m .M .mm .h .hh .h++ .hm .hpp
+  .hxx .in .txx
+
+
+CMake Error: CMake can not determine linker language for target: vision_test
+CMake Error: Cannot determine link language for target "vision_test".

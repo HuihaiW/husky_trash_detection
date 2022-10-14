@@ -1,0 +1,6 @@
+devel_space: /home/huihai/husky_melodic_ws/devel
+install: false
+install_space: /home/huihai/husky_melodic_ws/install
+profile: default
+source_space: /home/huihai/husky_melodic_ws/src
+workspace: /home/huihai/husky_melodic_ws

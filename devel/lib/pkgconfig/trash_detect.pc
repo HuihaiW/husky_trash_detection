@@ -1,0 +1,1 @@
+/home/huihai/husky_melodic_ws/devel/.private/trash_detect/lib/pkgconfig/trash_detect.pc

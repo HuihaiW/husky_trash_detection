@@ -1,0 +1,3 @@
+[ 50%] [32mBuilding CXX object CMakeFiles/get_goals.dir/src/get_goals.cpp.o[0m
+[100%] [32m[1mLinking CXX executable /home/huihai/husky_melodic_ws/devel/.private/get_goals/lib/get_goals/get_goals[0m
+[100%] Built target get_goals

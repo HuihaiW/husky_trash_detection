@@ -1,0 +1,19 @@
+In file included from [01m[K/home/huihai/husky_melodic_ws/src/get_pose/src/getTrigger.cpp:1:0[m[K:
+[01m[K/home/huihai/husky_melodic_ws/src/get_pose/include/get_pose/getTrigger.h:9:1:[m[K [01;31m[Kerror: [m[K‘[01m[Kprotect[m[K’ does not name a type; did you mean ‘[01m[Kpselect[m[K’?
+ [01;31m[Kprotect[m[K:
+ [01;31m[K^~~~~~~[m[K
+ [32m[Kpselect[m[K
+[01m[K/home/huihai/husky_melodic_ws/src/get_pose/src/getTrigger.cpp:[m[K In constructor ‘[01m[KgetTrigger::getTrigger(ros::NodeHandle&)[m[K’:
+[01m[K/home/huihai/husky_melodic_ws/src/get_pose/src/getTrigger.cpp:5:5:[m[K [01;31m[Kerror: [m[K‘[01m[K_sub[m[K’ was not declared in this scope
+     [01;31m[K_sub[m[K = n.subscribe("/trigger", 1, &getTrigger::receiveTrigger, this);
+     [01;31m[K^~~~[m[K
+In file included from [01m[K/home/huihai/husky_melodic_ws/src/get_pose/src/get_pose.cpp:4:0[m[K:
+[01m[K/home/huihai/husky_melodic_ws/src/get_pose/include/get_pose/getTrigger.h:9:1:[m[K [01;31m[Kerror: [m[K‘[01m[Kprotect[m[K’ does not name a type; did you mean ‘[01m[Kpselect[m[K’?
+ [01;31m[Kprotect[m[K:
+ [01;31m[K^~~~~~~[m[K
+ [32m[Kpselect[m[K
+make[2]: *** [CMakeFiles/get_pose.dir/src/get_pose.cpp.o] Error 1
+make[2]: *** Waiting for unfinished jobs....
+make[2]: *** [CMakeFiles/get_pose.dir/src/getTrigger.cpp.o] Error 1
+make[1]: *** [CMakeFiles/get_pose.dir/all] Error 2
+make: *** [all] Error 2

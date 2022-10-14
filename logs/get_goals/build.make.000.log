@@ -1,0 +1,12 @@
+[35m[1mScanning dependencies of target get_goals[0m
+[ 50%] [32mBuilding CXX object CMakeFiles/get_goals.dir/src/get_goals.cpp.o[0m
+[01m[K/home/huihai/husky_melodic_ws/src/get_goals/src/get_goals.cpp:2:10:[m[K [01;31m[Kfatal error: [m[Kgeometry_msgs/PoseWithCovarianceStamped: No such file or directory
+ #include [01;31m[K"geometry_msgs/PoseWithCovarianceStamped"[m[K
+          [01;31m[K^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+compilation terminated.
+CMakeFiles/get_goals.dir/build.make:62: recipe for target 'CMakeFiles/get_goals.dir/src/get_goals.cpp.o' failed
+make[2]: *** [CMakeFiles/get_goals.dir/src/get_goals.cpp.o] Error 1
+CMakeFiles/Makefile2:227: recipe for target 'CMakeFiles/get_goals.dir/all' failed
+make[1]: *** [CMakeFiles/get_goals.dir/all] Error 2
+Makefile:140: recipe for target 'all' failed
+make: *** [all] Error 2

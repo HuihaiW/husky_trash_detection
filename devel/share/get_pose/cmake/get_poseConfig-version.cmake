@@ -1,0 +1,1 @@
+/home/huihai/husky_melodic_ws/devel/.private/get_pose/share/get_pose/cmake/get_poseConfig-version.cmake

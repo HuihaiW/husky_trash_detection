@@ -1,0 +1,90 @@
+#include <fstream>
+#include <ros/ros.h>
+#include <iostream>
+#include <iomanip>
+#include <vector>
+#include <move_base_msgs/MoveBaseAction.h>
+#include <actionlib/client/simple_action_client.h>
+
+typedef actionlib::SimpleActionClient<move_base_msgs::MoveBaseAction> MoveBaseClient;
+
+using namespace std;
+
+vector<double> get_data(string path){
+    ifstream inFile;
+    string x;
+    vector<double> x_vector;
+
+    inFile.open(path);
+    if(!inFile){
+	cout << "Unable to open File";
+	exit(1);
+    }
+
+    while(inFile >> x){
+//	cout << "Read data: " << x << endl;
+	if(x == "---") continue;
+	else {
+//	    cout << "getting data: " << x << endl;
+	    double temp = stod(x);
+	    x_vector.push_back(temp);
+	}
+    }
+
+    inFile.close();
+    return x_vector;
+}
+
+
+int main(int argc, char** argv){
+
+    string pathX = "/home/huihai/x.txt";
+    string pathY = "/home/huihai/y.txt";
+    string pathZ = "/home/huihai/z.txt";
+    string pathW = "/home/huihai/w.txt";
+    
+    vector<double> x_vector;
+    vector<double> y_vector;
+    vector<double> z_vector;
+    vector<double> w_vector;
+
+    x_vector = get_data(pathX);
+    y_vector = get_data(pathY);
+    z_vector = get_data(pathZ);
+    w_vector = get_data(pathW);
+
+    ros::init(argc, argv, "simple_navigation_goals");
+
+    MoveBaseClient ac("move_base", true);
+    while(!ac.waitForServer(ros::Duration(5.0))){
+	ROS_INFO("Waiting for the move_base action server to come up");
+    }
+
+
+    move_base_msgs::MoveBaseGoal goal;
+
+    for(int i = 0; i < x_vector.size(); i++){
+
+	goal.target_pose.header.frame_id = "map";
+	goal.target_pose.header.stamp = ros::Time::now();
+
+	goal.target_pose.pose.position.x = x_vector[i];
+	goal.target_pose.pose.position.y = y_vector[i];
+
+	goal.target_pose.pose.orientation.z = z_vector[i];
+	goal.target_pose.pose.orientation.w = w_vector[i];
+
+	ROS_INFO("Sending goal");
+	ac.sendGoal(goal);
+
+	ac.waitForResult();
+
+	if(ac.getState() == actionlib::SimpleClientGoalState::SUCCEEDED)
+	    ROS_INFO("Horray, the husky moved to next goal");
+	else
+	    ROS_INFO("The husky failed to move to next goal")
+
+    }
+    return 0;
+}
+
